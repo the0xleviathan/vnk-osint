@@ -1,54 +1,67 @@
-# OSINT Investigation Project — Index
-**Date:** April 2, 2026
-**Status:** COMPLETE
+# VNK CYBER SECURITY AND INTELLIGENCE INC.
+### Canada Corp. — OSINT Reconnaissance and Forensics Division
 
 ---
 
-## Project Structure
+## 🔍 OSINT Investigation Platform
+
+Comprehensive individual and corporate profiling for banks, financial institutions, and regulators.
+
+### What's Inside
 
 ```
-~/osint-project/
+vnk-osint/
 ├── README.md                          ← You are here
+├── ROADMAP.md                         ← Grand vision & development plan
+├── VNK-OSINT-OC-2026-0402-MEETING_REPORT.pdf  ← Branded PDF report
+├── FINAL_REPORT.html                  ← Interactive web report
 ├── docs/
 │   └── OSINT_PROCESS_PLAYBOOK.md      ← Repeatable methodology
 ├── raw-data/
-│   ├── whois/                         ← Domain WHOIS data (7 domains)
-│   ├── social/                        ← Sherlock scan results
-│   ├── linkedin/                      ← LinkedIn research
-│   ├── companies/                     ← Company page scrapes
-│   ├── sec/                           ← SEC EDGAR results
-│   └── domains/                       ← DNS analysis
-├── reports/
-│   ├── individuals/
-│   │   ├── 01_kristofer_potts.md      ← CEO, Norseman Construction
-│   │   ├── 02_jake_phipps_consulting.md ← Consultant, Phipps Consulting
-│   │   ├── 03_jason_singh.md          ← Co-Founder, Auracle Finance
-│   │   ├── 04_kobhi_n.md              ← Tech Lead, Auracle Finance
-│   │   ├── 05_mustafa_xcap.md         ← Founder, XCAP
-│   │   ├── 06_pier_bjorklund.md       ← Founder, Birch First
-│   │   └── 07_rob_ustib.md            ← Principal, USTIB
-│   └── executive/
-│       └── CONSOLIDATED_EXECUTIVE_SUMMARY.md ← Master report
-└── tools/                             ← Tool installation notes
+│   ├── whois/                         ← Domain WHOIS intelligence
+│   └── social/                        ← Sherlock social media scans
+└── reports/
+    ├── individuals/                   ← 7 subject dossiers
+    │   ├── 01_kristofer_potts.md
+    │   ├── 02_jake_phipps_consulting.md
+    │   ├── 03_jason_singh.md
+    │   ├── 04_kobhi_n.md
+    │   ├── 05_mustafa_xcap.md
+    │   ├── 06_pier_bjorklund.md
+    │   └── 07_rob_ustib.md
+    └── executive/
+        └── CONSOLIDATED_EXECUTIVE_SUMMARY.md
 ```
 
-## Quick Links
+### Tools Deployed
 
-| Report | Person | Company | Key Finding |
-|--------|--------|---------|-------------|
-| [01_kristofer_potts.md](reports/individuals/01_kristofer_potts.md) | Kristofer Potts | Norseman Construction | 20+ year company, 2026 RenoMark Finalist |
-| [02_jake_phipps_consulting.md](reports/individuals/02_jake_phipps_consulting.md) | Jake | Phipps Consulting | Woman-owned federal vendor, Sammamish WA |
-| [03_jason_singh.md](reports/individuals/03_jason_singh.md) | Jason Singh | Auracle Finance | Fintech wallet, 5+ downloads, active dev |
-| [04_kobhi_n.md](reports/individuals/04_kobhi_n.md) | Kobhi N | Auracle Finance | Tech co-founder, low profile |
-| [05_mustafa_xcap.md](reports/individuals/05_mustafa_xcap.md) | Mustafa | XCAP | AI finance, stealth, 22yr domain |
-| [06_pier_bjorklund.md](reports/individuals/06_pier_bjorklund.md) | Pier S. Bjorklund | Birch First | Worth Ave, Palm Beach, 14 industries, TEDx |
-| [07_rob_ustib.md](reports/individuals/07_rob_ustib.md) | Rob | USTIB | ⚠️ Domain expires in 10 days, zero public info |
-| [EXECUTIVE SUMMARY](reports/executive/CONSOLIDATED_EXECUTIVE_SUMMARY.md) | All 7 | All 6 orgs | Cross-border capital raise hypothesis |
+| Tool | Purpose |
+|------|---------|
+| WHOIS Toolkit | Domain registration intelligence |
+| Sherlock | Social media username enumeration (180+ platforms) |
+| SEC EDGAR | Public company filing analysis |
+| DNS Analysis | Infrastructure correlation |
+| agent-browser | Headless browser automation |
+| web_search/web_fetch | Content extraction |
 
-## Critical Alerts
+### Getting Started
 
-1. 🚨 **ustib.com expires April 12, 2026** — 10 days from report date
-2. ⚠️ **XCAP** — privacy-shielded, pre-launch, no product visible
-3. ⚠️ **Auracle** — only 5+ downloads, very early stage
-4. ✅ **Norseman** — strongest entity, 20+ years, industry accredited
-5. ✅ **Birch First** — Worth Ave address, legitimate deal architect
+See `docs/OSINT_PROCESS_PLAYBOOK.md` for the complete methodology.
+
+### Roadmap
+
+See `ROADMAP.md` for the full development plan including:
+- Sanctions screening (OFAC, UN, EU)
+- PEP database integration
+- Criminal records API
+- Court records (PACER, CanLII)
+- Corporate registry integration
+- AI risk scoring
+- SaaS platform
+
+---
+
+*VNK CYBER SECURITY AND INTELLIGENCE INC.*
+*Canada Corp. — OSINT Reconnaissance and Forensics Division*
+
+*Built by k0d3x — April 2026*

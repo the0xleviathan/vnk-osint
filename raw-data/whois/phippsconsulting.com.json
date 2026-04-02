@@ -1,0 +1,18 @@
+{
+  "domain": "phippsconsulting.com",
+  "registrar": "GoDaddy.com, LLC",
+  "creation_date": "2025-03-04T17:48:36Z",
+  "expiry_date": "2027-03-04T17:48:36Z",
+  "updated_date": "2026-03-05T15:16:43Z",
+  "status": [
+    "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+    "clientRenewProhibited https://icann.org/epp#clientRenewProhibited",
+    "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+    "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited"
+  ],
+  "nameservers": [
+    "JEROME.NS.CLOUDFLARE.COM",
+    "NIA.NS.CLOUDFLARE.COM"
+  ],
+  "_days_until_expiry": 336
+}

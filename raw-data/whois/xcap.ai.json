@@ -1,0 +1,20 @@
+{
+  "domain": "xcap.ai",
+  "registrar": "GoDaddy.com, LLC",
+  "creation_date": "2023-07-03T19:24:37Z",
+  "expiry_date": "2027-07-03T19:24:37Z",
+  "updated_date": "2025-08-17T19:25:35Z",
+  "status": [
+    "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+    "clientRenewProhibited https://icann.org/epp#clientRenewProhibited",
+    "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+    "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited"
+  ],
+  "nameservers": [
+    "ns35.domaincontrol.com",
+    "ns36.domaincontrol.com"
+  ],
+  "registrant_org": "Domains By Proxy, LLC",
+  "registrant_country": "US",
+  "_days_until_expiry": 457
+}

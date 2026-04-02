@@ -1,0 +1,18 @@
+{
+  "domain": "xcap.com",
+  "registrar": "123-Reg Limited",
+  "creation_date": "2004-06-14T18:28:12Z",
+  "expiry_date": "2034-06-14T18:28:12Z",
+  "updated_date": "2025-05-11T21:18:35Z",
+  "status": [
+    "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+    "clientRenewProhibited https://icann.org/epp#clientRenewProhibited",
+    "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+    "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited"
+  ],
+  "nameservers": [
+    "NS35.DOMAINCONTROL.COM",
+    "NS36.DOMAINCONTROL.COM"
+  ],
+  "_days_until_expiry": 2995
+}

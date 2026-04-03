@@ -13,25 +13,28 @@ Comprehensive individual and corporate profiling for banks, financial institutio
 vnk-osint/
 ├── README.md                          ← You are here
 ├── ROADMAP.md                         ← Grand vision & development plan
-├── VNK-OSINT-OC-2026-0402-MEETING_REPORT.pdf  ← Branded PDF report
-├── FINAL_REPORT.html                  ← Interactive web report
+├── .gitignore                         ← Sensitive file exclusions
 ├── docs/
 │   └── OSINT_PROCESS_PLAYBOOK.md      ← Repeatable methodology
-├── raw-data/
-│   ├── whois/                         ← Domain WHOIS intelligence
-│   └── social/                        ← Sherlock social media scans
 └── reports/
-    ├── individuals/                   ← 7 subject dossiers
-    │   ├── 01_kristofer_potts.md
-    │   ├── 02_jake_phipps_consulting.md
-    │   ├── 03_jason_singh.md
-    │   ├── 04_kobhi_n.md
-    │   ├── 05_mustafa_xcap.md
-    │   ├── 06_pier_bjorklund.md
-    │   └── 07_rob_ustib.md
+    ├── individuals/
+    │   └── TEMPLATE_individual_report.md  ← Blank template
     └── executive/
-        └── CONSOLIDATED_EXECUTIVE_SUMMARY.md
+        └── TEMPLATE_executive_summary.md  ← Blank template
 ```
+
+### ⚠️ Sensitive Data
+
+**Real investigation reports are NOT stored in this repository.**
+
+Individual dossiers, executive summaries, PDF reports, and raw OSINT data contain personally identifiable information and are handled separately:
+
+- Stored in encrypted local storage only
+- Shared via secure channels (encrypted email, secure file transfer)
+- Never committed to version control
+- Retained per client agreement, then securely destroyed
+
+Use the templates in `reports/` as formatting references for new investigations.
 
 ### Tools Deployed
 

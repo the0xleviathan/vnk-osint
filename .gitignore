@@ -1,0 +1,15 @@
+# Sensitive investigation data — NEVER commit these
+*.pdf
+*.html
+raw-data/
+reports/individuals/!TEMPLATE_*.md
+reports/executive/!TEMPLATE_*.md
+
+# OSINT tool output
+*.log
+*.json
+
+# System
+.DS_Store
+*.swp
+*~
